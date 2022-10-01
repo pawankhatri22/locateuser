@@ -23,7 +23,7 @@ Project with user and location crud operation. Following are features
 
 
 ## Steps to Setup
-* Project is Maven based, Please install maven and setup mvn command to use. 
+* Note : It is maven based project. Please install and setup maven before using project. 
 
 #### 1)clone the project
     git clone https://github.com/pawankhatri22/locateuser.git

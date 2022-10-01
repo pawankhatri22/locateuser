@@ -28,7 +28,8 @@ Project with user and location crud operation. Following are features
 
 #### 2) run following commands
     cd locateuser
-    mvn spring-boot:run
+    mvn clean install
+    java -jar target/locate-user-0.0.1-SNAPSHOT.jar
 
 project will start running. you can import postman collection in locate user folder with name JitPay.postman_collection and use apis easily.
 
@@ -48,6 +49,9 @@ This project contains following apis
         "secondName": "Schmid"
         }
 
+![image](https://user-images.githubusercontent.com/32278634/193406682-92eedf25-3215-4126-bc12-a0f0bd40e5a9.png)
+
+
 
 #### 2) Parital  User    
 * Api to update different params of user. Add any param of user object in  body that you want to update
@@ -57,6 +61,8 @@ This project contains following apis
         {
         "email":"asd@hail.com"
         }
+
+![image](https://user-images.githubusercontent.com/32278634/193406933-fddb6d4c-675b-4d2a-ab22-160e7325d976.png)
 
 
 
@@ -74,11 +80,15 @@ This project contains following apis
             }
         }
 
+![image](https://user-images.githubusercontent.com/32278634/193406960-f5409f32-cf4d-4084-8abd-113d46d10f13.png)
+
+
 #### 4) Fetch User with Latest Location
 * API to fetch user with latest location for given user id.
 
         GET localhost:8080/user/2e3b11b0-07a4-4873-8de5-d2ae2eab26b2/location
        
+![image](https://user-images.githubusercontent.com/32278634/193406993-57647ba4-8208-4e6e-976e-9ecdd1ab7de4.png)
 
 
 #### 5) Fetch User with Location List
@@ -86,6 +96,8 @@ This project contains following apis
 
         GET localhost:8080/user/2e3b11b0-07a4-4873-8de5-d2ae2eab26b2/location/between?fromDate=2022-02-01T07:43:00.524&toDate=2022-02-13T07:43:00.524
        
+
+![image](https://user-images.githubusercontent.com/32278634/193407021-bf054b92-33fe-48bb-b8b3-f9c67f5a328e.png)
 
 
     
